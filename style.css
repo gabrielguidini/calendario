@@ -1,0 +1,66 @@
+table{
+    padding: 8px;
+    border-collapse: collapse;
+    align-items: center;
+}
+
+table,th,td{
+    border: 1px solid lightgreen;
+    align-items: center;
+    width: max-content;
+}
+
+td{
+    width: 25px;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+caption{
+    background-color: rgb(61, 252, 55);
+    text-align: center;
+    
+    padding: 10px;
+    border-collapse: collapse;
+}
+
+.mes{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border: 2px rgb(61, 252, 55) ;
+    align-items: center;
+}
+
+.table_days{
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    background-color: rgb(61, 252, 55);
+}
+
+.day_especiais{
+    border: inherit 2px;
+    border-radius: 100%;
+    background-color: yellow;
+}
+
+.day_exames{
+    background-color: aquamarine;
+    border:inherit 1px;
+    border-radius: 100%;
+}
+
+.day_feriado{
+    background-color: #FF0000;
+    border: inherit 1px;
+    border-radius: 100%;
+}
+.bolinha{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    
+}
+
